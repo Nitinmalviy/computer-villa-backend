@@ -1,0 +1,49 @@
+/* Navbar section  start -- - -- - */
+/* Custom styles for the navbar */
+
+/* Add a subtle gradient to the navbar background */
+nav.bg-gray-800 {
+  background: linear-gradient(to right, #1a202c, #2d3748);
+}
+
+/* Add a hover effect to the navbar links */
+nav a.text-gray-300:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+/* Style the logo */
+nav img.h-8 {
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.5));
+}
+
+/* Add a subtle border to the mobile menu button */
+nav button[aria-controls="mobile-menu"] {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+nav button[aria-controls="mobile-menu"]:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Add a transition effect to the mobile menu */
+#mobile-menu {
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+#mobile-menu:not(.hidden) {
+  max-height: 300px;
+  opacity: 1;
+}
+
+/* Add a subtle shadow to the entire navbar */
+nav.shadow-lg {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Navbar section  end -- - -- -  */
