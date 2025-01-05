@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "NodeNext",
+        "lib": [
+            "ES2020"
+        ],
+        "outDir": "dist",
+        "baseUrl": "src",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "paths": {
+            "middleware/*": [
+                "middleware/*"
+            ],
+            "third-party-controllers/*": [
+                "src/third-party-controllers/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*"
+    ],
+}
