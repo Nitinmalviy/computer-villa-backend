@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc && npm run copy-views",
-    "copy-views": "xcopy src\\views dist\\views /E /I /Y",
+    "copy-views": "cp -R src/views dist/views",
     "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
