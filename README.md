@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ghumakkad Backend
 
 This is the backend server for the Ghumakkad project.
@@ -20,3 +21,7 @@ npm run dev
 - Node.js
 - Express
 - TypeScript
+=======
+# computer-villa-backend
+Computer Villa Backend A robust backend solution for the Computer Villa eCommerce platform, built with Node.js, Express, and MongoDB.
+>>>>>>> a849de8b7e703e3bba211c90a032804b147e1f44
