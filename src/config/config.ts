@@ -17,11 +17,4 @@ export const config = {
     origin: process.env.CORS_ORIGIN || "*",
     credentials: true,
   },
-  smtp: {
-    user: process.env.EMAIL_USER || "nitinmalviya172@gmail.com",
-    password: process.env.EMAIL_PASSWORD || "nmcg rfyn hvto yhia",
-    host: process.env.EMAIL_HOST,
-    port: parseInt(process.env.EMAIL_PORT, 10) || 587,
-    secure: process.env.EMAIL_SECURE === "true",
-  },
 };
